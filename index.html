@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Rock paper Scissors</title>
+</head>
+<body>
+    <h1 class="head">ROCK PAPER SCISSORS</h1>
+    <div class="container">
+        <div class="score">
+            <p>Computer: <span id="computer_score">0</span></p>
+        <p>player:<span id="player_score">0</span></p>
+
+        </div>
+        <div class="weapons">
+            <button onclick="checker('rock')">rock</button>
+            <button onclick="checker('paper')">paper</button>
+            <button onclick="checker('scissors')">scissors</button>
+
+        </div>
+        <div class="details">
+        <p id="user_choice"></p>
+        <p id="computer_choice"></p>
+        <p id="result"></p>
+        </div>
+        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

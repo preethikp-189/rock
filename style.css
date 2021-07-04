@@ -1,0 +1,63 @@
+body{
+    background-color:black;
+}
+.head{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    background-color:white;
+    position:relative;
+    left: 450px;
+    top: 25px;
+    border-radius: 10px;
+
+
+}
+.score{
+   margin-bottom: 10px;
+  text-align: right;
+}
+.weapons{
+    display: flex;
+    margin:auto;
+    width: 90%;
+    justify-content: space-around;
+}
+.weapons button{
+    border:none;
+   background-color: darkgrey;
+    height: 10%;
+    width:15%;
+    top:20%;
+   
+
+}
+.weapons button hover{
+    cursor: pointer;
+
+}
+.details{
+    margin-top: 10px;
+    text-align:center;
+}
+#result{
+    width:180px;
+    padding: 10px 0;
+    margin:30px auto;
+    font-weight: 600px;
+    letter-spacing: 0.5px;
+
+}
+#user_choice,
+#computer_choice{
+    font-weight: 400px;
+    margin-bottom: 10px;
+
+}
+span{
+    font-weight: 600;
+}
